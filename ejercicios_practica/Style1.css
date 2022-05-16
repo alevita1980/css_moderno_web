@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.father{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color:dimgrey;
+    padding-top:  10px;
+}
+
+header>nav>ul{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.interactable{
+    cursor:pointer;
+    transition: all ease-out 250ms;
+}
+.interactable:hover{
+    padding: 10px;
+    border-bottom: 2px solid red;
+}
+
